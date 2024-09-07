@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio HTML & CSS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#about">A propos</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+        <section id="accueil">
+            <h1>Accueil</h1>
+            <p>Bienvenue sur mon portfolio</p>
+            <img class="masuperImage" src="./images/gomycode.jpeg" alt="Photo de profil" />
+        </section>
+        <section id="about">
+            <h1>A propos</h1>
+            <p>Je suis un développeur web</p>
+        </section>
+        <section id="portfolio">
+            <h1>Portfolio</h1>
+            <p>Voici mes projets</p>
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>Vous pouvez me contacter à l'adresse suivante :
+                <a href="mailto:contact@test.com">email me </a>
+            </p>
+
+            <form action="">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" placeholder="veuillez saisir votre nom" name="nom" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="veuillez saisir votre email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="veuillez saisir votre message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Mon portfolio</p>
+    </footer>
+
+
+</body>
+
+</html>
